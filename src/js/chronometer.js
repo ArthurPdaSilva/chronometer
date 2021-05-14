@@ -38,10 +38,12 @@ function chronometer(){
 
 // clear the chronometer
 function clearCode(){
-    textArea.innerHTML = `Finished in ${countM}:${countS}:${countMs}`;
+    textArea.innerHTML = `Finished in ${countM < 10 ? '0' + countM : countM}:${countS < 10 ? '0' + countS : countS}:${countMs < 10 ? '0' + countMs : countMs}`;
     clearInterval(time);
     countMs = 0;
     countS = 0;
     countM = 0;
+    btnStart.style.display = 'block';
+    btnPause.style.display = 'none';
     text.innerHTML = `00:00:00`;
 }

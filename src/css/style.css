@@ -77,3 +77,10 @@ button#pause{
     background-color: #EF476F;
     display: none;
 }
+
+@media(max-width: 600px){
+    button{
+        width: 40vw;
+        margin: .5em;
+    }
+}
