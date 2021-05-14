@@ -1,0 +1,74 @@
+@charset "UTF-8";  
+
+/* All */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+    color: #FCFCFC;
+    min-width: 10vw;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+textarea{
+    resize: none;
+    color: black;
+    padding: 1.2em;
+}
+
+button, textarea{
+    border-radius: .5em;
+    border: none;
+}
+
+body{
+    background-color: #26547C;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1 h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Display of the blocks */
+body, div.chronometer, div.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Chronometer */
+div.chronometer{
+    padding: 2em;
+    background-color: #4BA3C3;
+    border-radius: 1.2em;
+    max-width: 80vw;
+    color: #FCFCFC;
+    gap: 1.2em;
+    flex-direction: column;
+    box-shadow: .5em .5em .5em rgba(7, 64, 85, 0.557);
+    box-sizing: border-box;
+}
+
+/* Buttons */
+div.buttons{
+    flex: 1;
+    width: 100%;
+    justify-content: space-around;
+}
+
+button#start{
+    background-color: #06D6A0;
+}
+
+button#clear{
+    background-color: #FFD166;
+}

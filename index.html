@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Digital time for training">
+    <meta name="keywords" content="chronometer, digital timer, js and css">
+    <meta name="author" content="Arthur Pereira da Silva">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
+
+
+    <title>Digital Timer</title>
+</head>
+<body>
+    <div class="chronometer">
+        <h1>Chronometer</h1>
+        <h2>00:00:00</h2>
+        <div class="buttons">
+            <button id="start" onclick="start()">Start</button>
+            <button id="clear" onclick="clearCode()">Clear</button>
+        </div>
+        <textarea name="field" id="field" cols="30" rows="10"></textarea>
+    </div>
+    <script src="src/js/chronometer.js"></script>
+</body>
+</html>
