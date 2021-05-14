@@ -72,3 +72,8 @@ button#start{
 button#clear{
     background-color: #FFD166;
 }
+
+button#pause{
+    background-color: #EF476F;
+    display: none;
+}
