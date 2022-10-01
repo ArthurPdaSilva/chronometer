@@ -9,7 +9,7 @@
 button{
     cursor: pointer;
     color: #FCFCFC;
-    min-width: 10vw;
+    min-width: 8vw;
     font-weight: bold;
     font-size: 1.5em;
     padding: .5em;
@@ -60,9 +60,8 @@ div.chronometer{
 
 /* Buttons */
 div.buttons{
-    flex: 1;
+    gap: 15px;
     width: 100%;
-    justify-content: space-around;
 }
 
 button#start{
